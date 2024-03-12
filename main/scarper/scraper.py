@@ -51,10 +51,10 @@ class Scraper:
         return {"temp": temp, "time": time, "sky": sky}
 
 
-if __name__ == "__main__":
-    scraper = Scraper()
-    data = scraper.scrape_data("what is the weather of phusro")
-    if data:
-        print(data)
-    else:
-        print("No valid data found.")
+# if __name__ == "__main__":
+#     scraper = Scraper()
+#     data = scraper.scrape_data("what is the weather of phusro")
+#     if data:
+#         print(data)
+#     else:
+#         print("No valid data found.")

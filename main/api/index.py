@@ -11,7 +11,7 @@ scraper = Scraper()
 def home():
     return 'Open Source Weather API - By Vivek Thakur'
 
-@app.route('/get_weather_data',method=['POST'])
+@app.route('/get_weather_data',methods=['POST'])
 def fetch_weather_data():
     data = request.get_json()
     query = data['query']
